@@ -67,8 +67,8 @@ function OffCanvasFriends() {
 
                         </div>
                         <div className="col-9 py-auto">
-                            <p className=" small canvas-style">{canvasContent.characterName}</p>
-                            <p className=" extra canvas-style">{canvasContent.friends}</p>
+                            <p className=" small mt-2 mb-2 pb-2">{canvasContent.characterName}</p>
+                            <p className=" extra mt-2 mb-2 pb-2">{canvasContent.friends}</p>
 
                         </div>
 

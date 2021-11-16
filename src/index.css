@@ -14,11 +14,9 @@
   font-weight: 900 !important;
   font-size: 48px !important;
   line-height: 72px !important;
-  display: flex;
   align-items: center;
   letter-spacing: 1px;
   color: #121C33;
-  
 }
 
 
@@ -71,20 +69,16 @@
   
 }
 
-.float-button-style{
+.fix{
   position:fixed;
 	bottom:30px;
 	right:5px;
-	text-align:center;
-
 }
 
 .offcanvas-style{
   top: 50px !important;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2) !important;
   border-radius: 20px;
-  
-  
 }
 
 .bigger{
@@ -95,24 +89,13 @@
   color: #121C33;
 }
 
-.canvas-style{
-  margin-top: 2px !important;
-  margin-bottom: 2px !important;
-  padding-bottom: 2px !important;
- 
-}
+
 
 .OffCanvasStyle{
   height: 72px !important;
   width: 72px !important;
 }
 
-.character-card-body{
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
-}
 
 .nav.nav-pills .nav-link.active {
   background-color: rgba(18, 28, 51, 0.05) !important;

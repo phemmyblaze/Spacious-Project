@@ -149,8 +149,8 @@ function PlanetCard({ name, ...props }) {
                         <p className="little">Planet Alpha is the place to be if you like everything related to planets. I know it's a bit meta but come see by yourself. </p>
                         <Row className="mt-4">
                             <Col className=" ">
-                                <p className="little canvas-style">Population</p>
-                                <p className="small canvas-style">234</p>
+                                <p className="little mt-2 mb-2 pb-2">Population</p>
+                                <p className="small mt-2 mb-2 pb-2">234</p>
 
                             </Col>
                             
@@ -169,7 +169,7 @@ function PlanetCard({ name, ...props }) {
                     
                 </Offcanvas>
             }   
-            <div className=" float-button-style">
+            <div className=" fix text-center">
                 <CreateNewPlanet/> 
 
             </div>

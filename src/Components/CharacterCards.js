@@ -120,10 +120,10 @@
                                                 <Card.Img variant="top" className="img-fluid h-100" src={character.image} />
                                             </div>
                                             
-                                            <Card.Body className="my-2 character-card-body">
-                                                <Card.Title className="small m-0 p-0 canvas-style">{character.planetName}</Card.Title>
+                                            <Card.Body className="my-2  pt-0 pb-0 ps-1 pe-1">
+                                                <Card.Title className="small m-0 p-0 mt-2 mb-2 pb-2">{character.planetName}</Card.Title>
                                                 <Card.Text>
-                                                    <small className="text-muted smaller m-0 p-0 canvas-style">{character.props}</small>
+                                                    <small className="text-muted smaller m-0 p-0 mt-2 mb-2 pb-2">{character.props}</small>
                                                 </Card.Text>
                                             </Card.Body>
 
@@ -181,7 +181,7 @@
                         
                     </Offcanvas>
                 }   
-                <div className=" float-button-style d-sm-none d-md-block">
+                <div className=" fix text-center d-sm-none d-md-block">
                     <CreateNewCharacter handleShow={handleShow}/> 
 
                 </div>

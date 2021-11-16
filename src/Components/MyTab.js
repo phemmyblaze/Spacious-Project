@@ -12,10 +12,10 @@ function MyTab() {
         <Tab.Container id="" defaultActiveKey="first">
             <Nav variant="pills" className="mb-2">
                 <Nav.Item>
-                    <Nav.Link eventKey="first" className=" text-dark px-3">PLANETS</Nav.Link>
+                    <Nav.Link eventKey="first" className=" text-dark px-3 small">PLANETS</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="second" className="text-dark px-3" >CHARACTERS</Nav.Link>
+                    <Nav.Link eventKey="second" className="text-dark px-3 small" >CHARACTERS</Nav.Link>
                 </Nav.Item>
             </Nav>
                 
