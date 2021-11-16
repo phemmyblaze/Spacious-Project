@@ -1,0 +1,119 @@
+
+*, body, html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background: #F5F5F5 !important;
+}
+
+
+
+.big{
+  font-style: normal !important;
+  font-weight: 900 !important;
+  font-size: 48px !important;
+  line-height: 72px !important;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  color: #121C33;
+  
+}
+
+
+
+.card-style{
+  border-radius: 16px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 272px;
+  height: 200px;
+  overflow: hidden;
+}
+
+
+.small{
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: #121C33;
+}
+
+
+.smaller{
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  color: #121C33;
+}
+
+.planet-size{
+  height: 120px;
+  width: 120px;
+}
+
+
+
+.character-size{
+  height: 130px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.Card.Img .character-img{
+  background-position: center;
+}
+
+.btn-1 {
+  background-color: #121C33 !important;
+  
+}
+
+.float-button-style{
+  position:fixed;
+	bottom:30px;
+	right:5px;
+	text-align:center;
+
+}
+
+.offcanvas-style{
+  top: 50px !important;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 20px;
+  
+  
+}
+
+.bigger{
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 32px !important;
+  line-height: 48px !important;
+  color: #121C33;
+}
+
+.canvas-style{
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+  padding-bottom: 2px !important;
+ 
+}
+
+.OffCanvasStyle{
+  height: 72px !important;
+  width: 72px !important;
+}
+
+.character-card-body{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.nav.nav-pills .nav-link.active {
+  background-color: rgba(18, 28, 51, 0.05) !important;
+}
