@@ -114,7 +114,7 @@
                     characters.map(character => (
                         
                             <Col xs="auto" md="auto" lg="3" sm="auto">
-                                <Card className="card-style my-3 pb-2 " key={character.id}>
+                                <Card className="card-style my-3 pb-2 bg-white" key={character.id}>
                                         <a  href="#" className=" text-decoration-none" data-bs-toggle="offcanvas"  role="button" aria-controls="offcanvasExample" onClick={handleShow}>
                                             <div className="character-size">
                                                 <Card.Img variant="top" className="img-fluid h-100" src={character.image} />

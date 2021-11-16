@@ -113,7 +113,7 @@ function PlanetCard({ name, ...props }) {
                     
                     <Col xs="auto" md="auto" lg="3" sm="auto">
                         <a>
-                            <Card className="card-style my-3 " key={planet.id}>
+                            <Card className="card-style my-3 bg-white" key={planet.id}>
                                 <a  href="#" className=" text-decoration-none" data-bs-toggle="offcanvas"  role="button" aria-controls="offcanvasExample" onClick={handleShow}>
                                     <div className="planet-size mx-auto">
                                         <Card.Img variant="top" className="img-fluid" src={planet.image} /> 
