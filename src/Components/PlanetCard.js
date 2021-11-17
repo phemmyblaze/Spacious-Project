@@ -115,7 +115,7 @@ function PlanetCard({ name, ...props }) {
         },
     ]
     return (
-        <Row xs={1} md={3} lg={4} sm={1} className="d-flex justify-content-between">
+        <Row xs={1} md={3} lg={4} sm={1} className="d-flex justify-content-between position-relative">
 
             {
                 planets.map(planet => (
@@ -148,12 +148,12 @@ function PlanetCard({ name, ...props }) {
             }
             {
 
-           
+                <>
+                <CreateNewPlanet className="position-absolute bottom-0 end-0 mt-5"/>
                 <Offcanvas show={show} onHide={handleClose} {...props} placement="end" className="offcanvas-style" >
-                    <Offcanvas.Header closeButton className="ms-auto me-4">
-                    
+                    <Offcanvas.Header closeButton className="">
+                    <Offcanvas.Title className="bigger">Planet Alpha</Offcanvas.Title>
                     </Offcanvas.Header>
-                    <Offcanvas.Title className="bigger  ms-3">Planet Alpha</Offcanvas.Title>
                     <Offcanvas.Body >
                         <p className="little">Planet Alpha is the place to be if you like everything related to planets. I know it's a bit meta but come see by yourself. </p>
                         <Row className="mt-4">
@@ -177,11 +177,12 @@ function PlanetCard({ name, ...props }) {
                     </Offcanvas.Body>
                     
                 </Offcanvas>
+                </>
             }   
-            <div className=" fix text-center">
-                <CreateNewPlanet/> 
+            {/* <div className=" fix text-center">
+                <CreateNewPlanet className="position-absolute bottom-0 end-0 mt-5"/> 
 
-            </div>
+            </div> */}
 
 
         </Row>

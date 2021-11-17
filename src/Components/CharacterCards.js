@@ -128,7 +128,8 @@
                 <option value="1" >Planet: Alpha </option>
                 <option value="2" >Planet: Friends </option>
             </Form.Select>
-            <Row xs={1} md={3} lg={4} sm={1} className="d-flex justify-content-between ">
+            <Row xs={1} md={3} lg={4} sm={1} className="d-flex justify-content-between position-relative">
+            
 
                 {
                     characters.map(characters => (
@@ -168,12 +169,13 @@
                 }
                 {
 
-            
-                    <Offcanvas show={show} onHide={handleClose} {...props} placement="end" className="offcanvas-style " md="auto" lg="auto" sm="auto">
-                        <Offcanvas.Header closeButton className="ms-auto me-4">
-                            
+                    <>
+                    <CreateNewCharacter className="position-absolute bottom-0 end-0 mt-5" handleShow={handleShow}/> 
+                    <Offcanvas show={show} onHide={handleClose} {...props} placement="end" className="offcanvas-style" md="auto" lg="auto" sm="auto">
+                        <Offcanvas.Header closeButton className="">
+                            <Offcanvas.Title className="bigger  ms-3">Jane Cooper</Offcanvas.Title>
                         </Offcanvas.Header>
-                        <Offcanvas.Title className="bigger  ms-3">Jane Cooper</Offcanvas.Title>
+                        
                         <Offcanvas.Body >
                             <p className="extra">Jane is really a nice person. She’s been living on planet Alpha for the last 10 years. </p>
                             <Row className="mt-4">
@@ -200,11 +202,12 @@
                         </Offcanvas.Body>
                         
                     </Offcanvas>
+                    </>
                 }   
-                <div className=" fix text-center d-sm-none d-md-block">
+                {/* <div className=" fix text-center d-sm-none d-md-block">
                     <CreateNewCharacter handleShow={handleShow}/> 
 
-                </div>
+                </div> */}
 
             </Row>
 

@@ -1,7 +1,8 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Modal, Form, Image} from 'react-bootstrap';
-import {  useState } from 'react'
+import {  useState } from 'react';
+import {PlusCircleFill} from 'react-bootstrap-icons';
 
 
 function CreateNewCharacter() {
@@ -15,9 +16,14 @@ function CreateNewCharacter() {
 
     return (
         <div>
-            <Button variant="" className="rounded-circle"  onClick={handleShow}>
+            {/* <Button variant="" className="rounded-circle"  onClick={handleShow}>
                 <Image src="./plus-icon.svg"  roundedCircle alt="add button" />
-            </Button>
+            </Button> */}
+            <PlusCircleFill 
+                onClick={handleShow}
+                size={48}
+                className="position-absolute bottom-0 end-0"
+            />
             
     
             <Modal show={show} onHide={handleClose} size="lg" aria-labelledby="example-modal-sizes-title-lg" >
