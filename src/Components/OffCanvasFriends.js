@@ -1,6 +1,12 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Image} from 'react-bootstrap';
+import character16 from '../character-16.png'
+import character13 from '../character-13.png'
+import character3 from '../character-3.png'
+import character5 from '../character-5.png'
+import character8 from '../character-8.png'
+import character6 from '../character-6.png'
 
 
 
@@ -9,7 +15,7 @@ import { Row, Image} from 'react-bootstrap';
 const canvasContents = [
     {
         id: 1,
-        image: '/images/characters/character-16.png',
+        image: character16,
         characterName:"Darlen Robertson",
         friends: "23 friends"
 
@@ -17,7 +23,7 @@ const canvasContents = [
 
     {
         id: 2,
-        image: '/images/characters/character-13.png',
+        image: character13,
         characterName:"Katling Murphy",
         friends: "23 friends"
 
@@ -25,7 +31,7 @@ const canvasContents = [
 
     {
         id: 3,
-        image: '/images/characters/character-3.png',
+        image: character3,
         characterName:"Jenny Wilson",
         friends: "23 friends"
 
@@ -33,21 +39,21 @@ const canvasContents = [
 
     {
         id: 4,
-        image: '/images/characters/character-5.png',
+        image: character5,
         characterName:"Arlene Meloy",
         friends: "23 friends"
 
     },
     {
         id: 5,
-        image: '/images/characters/character-8.png',
+        image: character8,
         characterName:"Darrel Steward",
         friends: "23 friends"
 
     },
     {
         id: 6,
-        image: '/images/characters/character-6.png',
+        image: character6,
         characterName:"Bessie Cooper",
         friends: "23 friends"
 

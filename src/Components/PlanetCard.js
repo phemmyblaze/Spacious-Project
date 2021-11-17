@@ -4,6 +4,15 @@ import {  Row, Col, Card, Offcanvas} from 'react-bootstrap';
 import {  useState } from 'react';
 import CreateNewPlanet from './CreateNewPlanet';
 import OffCanvasFriends from './OffCanvasFriends';
+import planet1 from '../planet-1.svg';
+import planet2 from '../planet-2.svg';
+import planet3 from '../planet-3.svg';
+import planet4 from '../planet-4.svg';
+import planet5 from '../planet-5.svg';
+import planet6 from '../planet-6.svg';
+import planet7 from '../planet-7.svg';
+import planet8 from '../planet-8.svg';
+import planet9 from '../planet-9.svg';
 
 
 
@@ -19,89 +28,89 @@ function PlanetCard({ name, ...props }) {
     const planets = [
         {
             id: 1,
-            image: './Images/planets/planet-5.svg',
+            image: planet9,
             planetName:"Planet Alpha",
-            props: "Pop: 235"
+            pops: "Pop: 235"
 
         },
 
         {
             id: 2,
-            image: './Images/planets/planet-2.svg',
+            image: planet8,
             planetName:"Planet Alpha",
-            props: "Pop: 235"
+            pops: "Pop: 235"
 
         },
 
         {
             id: 3,
-            image: './Images/planets/planet-3.svg',
+            image: planet7,
             planetName:"Planet Alpha",
-            props: "Pop: 235"
+            pops: "Pop: 235"
 
         },
 
         {
             id: 4,
-            image: './Images/planets/planet-6.svg',
+            image: planet6,
             planetName:"Planet Alpha",
-            props: "Pop: 235"
+            pops: "Pop: 235"
 
         },
         {
             id: 5,
-            image: './Images/planets/planet-3.svg',
+            image: planet6,
             planetName:"Planet Alpha",
-            props: "Pop: 235"
+            pops: "Pop: 235"
 
         },
         {
             id: 6,
-            image: './Images/planets/planet-1.svg',
+            image: planet3,
             planetName:"Planet Alpha",
-            props: "Pop: 235"
+            pops: "Pop: 235"
 
         },
         {
             id: 7,
-            image: '/images/planets/planet-2.svg',
+            image: planet1,
             planetName:"Planet Alpha",
-            props: "Pop: 235"
+            pops: "Pop: 235"
 
         },
         {
             id: 8,
-            image: '/images/planets/planet-4.svg',
+            image: planet2,
             planetName:"Planet Alpha",
-            props: "Pop: 235"
+            pops: "Pop: 235"
 
         },
         {
             id: 9,
-            image: '/images/planets/planet-7.svg',
+            image: planet2,
             planetName:"Planet Alpha",
-            props: "Pop: 235"
+            pops: "Pop: 235"
 
         },
         {
             id: 10,
-            image: '/images/planets/planet-9.svg',
+            image: planet4,
             planetName:"Planet Alpha",
-            props: "Pop: 235"
+            pops: "Pop: 235"
 
         },
         {
             id: 11,
-            image: '/images/planets/planet-8.svg',
+            image: planet5,
             planetName:"Planet Alpha",
-            props: "Pop: 235"
+            pops: "Pop: 235"
 
         },
         {
             id: 12,
-            image: '/images/planets/planet-2.svg',
+            image: planet3,
             planetName:"Planet Alpha",
-            props: "Pop: 235"
+            pops: "Pop: 235"
 
         },
     ]
@@ -113,7 +122,7 @@ function PlanetCard({ name, ...props }) {
                     
                     <Col xs="auto" md="auto" lg="3" sm="auto">
                         <a>
-                            <Card className="card-style my-3 bg-white" key={planet.id}>
+                            <Card className=" rounded my-3" key={planet.id}>
                                 <a  href="#" className=" text-decoration-none" data-bs-toggle="offcanvas"  role="button" aria-controls="offcanvasExample" onClick={handleShow}>
                                     <div className="planet-size mx-auto">
                                         <Card.Img variant="top" className="img-fluid" src={planet.image} /> 
@@ -122,7 +131,7 @@ function PlanetCard({ name, ...props }) {
                                     <Card.Body>
                                         <Card.Title className="fw-bold small ">{planet.planetName}</Card.Title>
                                         <Card.Text>
-                                            <small className="text-muted fs-12">{planet.props}</small>
+                                            <small className="text-muted fs-12">{planet.pops}</small>
                                         </Card.Text>
                                     </Card.Body>
                                 </a>

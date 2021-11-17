@@ -9,10 +9,14 @@ function CreateNewCharacter() {
   
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
+    
+
+
     return (
         <div>
             <Button variant="" className="rounded-circle"  onClick={handleShow}>
-                <Image src="./images/assets/plus-64-icon.png"  roundedCircle />
+                <Image src="./plus-64-icon.png"  roundedCircle />
             </Button>
             
     

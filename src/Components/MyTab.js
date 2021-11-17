@@ -27,7 +27,7 @@ function MyTab() {
                     
                 </Tab.Pane>
                     
-                <Tab.Pane eventKey="second">
+                <Tab.Pane eventKey="second" className="position-relative">
                     <CharacterCards />
                 </Tab.Pane>
             </Tab.Content> 
