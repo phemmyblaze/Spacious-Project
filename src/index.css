@@ -20,6 +20,17 @@
 }
 
 
+
+.card-new{
+  border-radius: 20px;
+  /* background: #FFFFFF; */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 272px;
+  height: 200px;
+  overflow: hidden;
+}
+
+
 .small{
   font-style: normal !important;
   font-weight: 600 !important;

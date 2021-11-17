@@ -16,7 +16,7 @@ function CreateNewCharacter() {
     return (
         <div>
             <Button variant="" className="rounded-circle"  onClick={handleShow}>
-                <Image src="./plus-64-icon.png"  roundedCircle />
+                <Image src="./plus-icon.svg"  roundedCircle alt="add button" />
             </Button>
             
     
