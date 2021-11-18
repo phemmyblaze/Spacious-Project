@@ -51,7 +51,7 @@
 
             {
                 id: 3,
-                image: character3,
+                image: character5,
                 characterName:"Leslie Alexander",
                 pops: "23 friends"
 
