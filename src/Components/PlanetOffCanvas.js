@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Row, Image} from 'react-bootstrap';
-import data from '../utilities/arrays'
+import {data} from '../utilities/arrays'
 
 
 
@@ -25,7 +25,7 @@ function PlanetOffCanvas() {
                         </div>
                         <div className="col-9 py-auto">
                             <p className=" small canvas-style">{canvasContent.characterName}</p>
-                            <p className=" smaller canvas-style">{canvasContent.quote}</p>
+                            <p className=" smaller canvas-style">{canvasContent.info}</p>
 
                         </div>
 

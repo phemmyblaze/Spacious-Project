@@ -77,17 +77,17 @@ html {
 }
 
 
-/* .fix{
+.fix{
   position:fixed;
 	bottom:30px;
 	right:5px;
-} */
+}
 
-/* .offcanvas-style{
+.offcanvas-style{
   top: 50px !important;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2) !important;
   border-radius: 20px;
-} */
+}
 
 .bigger{
   font-style: normal !important;
