@@ -76,7 +76,7 @@ export const data = [
         image: character8,
         characterName:"Guy Hawkins",
         pops: "23 friends",
-        info: "Guy Hawkins lives on Planet Alpha and he's a great guy."
+        info: "Fashionista who has walked the world most amazing fashion run ways in the world 👗 ."
 
     },
     {
@@ -84,7 +84,7 @@ export const data = [
         image: character9,
         characterName:"Robert Fox",
         pops: "23 friends",
-        info: "Great friends and he's a manchester united fan"
+        info: "He's a foodie and a chef, who love exploring different foods around different locality 🍲 ."
 
     },
     {
@@ -100,7 +100,7 @@ export const data = [
         image: character11,
         characterName:"Careen Taylor",
         pops: "23 friends",
-        info: "Careen Taylor lives on Planet Alpha."
+        info: "Grandma and a lover of children 🧒 "
 
     },
     {
@@ -108,7 +108,7 @@ export const data = [
         image: character12,
         characterName:"David Brown",
         pops: "23 friends",
-        info: "David Brown has a new world view of how the society should be and hopes for a better one."
+        info: "David Brown has a new world view of how the society should be and hopes for a better one 🗺 ."
 
     },
 ]
