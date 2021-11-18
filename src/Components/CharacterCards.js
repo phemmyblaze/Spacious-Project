@@ -204,10 +204,6 @@
                     </Offcanvas>
                     </>
                 }   
-                {/* <div className=" fix text-center d-sm-none d-md-block">
-                    <CreateNewCharacter handleShow={handleShow}/> 
-
-                </div> */}
 
             </Row>
 

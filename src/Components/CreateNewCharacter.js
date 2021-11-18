@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Modal, Form, Image} from 'react-bootstrap';
+import { Button, Modal, Form} from 'react-bootstrap';
 import {  useState } from 'react';
 import {PlusCircleFill} from 'react-bootstrap-icons';
 
@@ -16,9 +16,6 @@ function CreateNewCharacter() {
 
     return (
         <div>
-            {/* <Button variant="" className="rounded-circle"  onClick={handleShow}>
-                <Image src="./plus-icon.svg"  roundedCircle alt="add button" />
-            </Button> */}
             <PlusCircleFill 
                 onClick={handleShow}
                 size={48}
@@ -40,6 +37,7 @@ function CreateNewCharacter() {
                                 Paste the URL of a JPG or PNG of max 20 kb    
                             </Form.Text>
                         </Form.Group>
+
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label className="small">Name</Form.Label>

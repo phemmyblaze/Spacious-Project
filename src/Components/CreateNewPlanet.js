@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Modal, Form, Image} from 'react-bootstrap';
+import { Button, Modal, Form} from 'react-bootstrap';
 import {  useState } from 'react'
 import {PlusCircleFill} from 'react-bootstrap-icons';
 
@@ -31,8 +31,6 @@ function CreateNewPlanet() {
         if(planetValues.imageURL=="" || planetValues.info=="" || planetValues.name=="") {
             setError(true)
         } else {
-            // planetValues.id = 'g-' + (Math.random() * 100000).toFixed(0)
-            // planetValues.population = (Math.random() * 100000).toFixed(0)
             setPlanetValues({
                 imageURL: '',
                 name: '',
@@ -45,9 +43,6 @@ function CreateNewPlanet() {
 
     return (
         <div>
-            {/* <Button variant="" className="rounded-circle"  onClick={handleShow}>
-                <Image src="/images/assets/plus-64-icon.png"  roundedCircle />
-            </Button> */}
               <PlusCircleFill 
                 onClick={handleShow}
                 size={48}

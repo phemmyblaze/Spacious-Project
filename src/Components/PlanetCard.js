@@ -179,10 +179,6 @@ function PlanetCard({ name, ...props }) {
                 </Offcanvas>
                 </>
             }   
-            {/* <div className=" fix text-center">
-                <CreateNewPlanet className="position-absolute bottom-0 end-0 mt-5"/> 
-
-            </div> */}
 
 
         </Row>
