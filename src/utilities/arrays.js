@@ -16,7 +16,7 @@ export const data = [
         id: 1,
         image: character1,
         characterName:"Brooklyn Simmons",
-        pops: "23 friends",
+        pops: "50 friends",
         info: "Brooklyn SImmons lives on Planet Alpha."
 
     },
@@ -25,7 +25,7 @@ export const data = [
         id: 2,
         image: character2,
         characterName:"Cameron Williamson",
-        pops: "23 friends",
+        pops: "150 friends",
         info: "Cameron Williamson lives on Planet Alpha and she is a beautiful soul."
 
     },
@@ -34,7 +34,7 @@ export const data = [
         id: 3,
         image: character3,
         characterName:"Leslie Alexander",
-        pops: "23 friends",
+        pops: "54 friends",
         info: "Leslie Alexander lives on Planet Alpha."
 
     },
@@ -43,7 +43,7 @@ export const data = [
         id: 4,
         image: character4,
         characterName:"Kriston Watson",
-        pops: "23 friends",
+        pops: "70 friends",
         info: "Kriston Watson lives on Planet Alpha."
 
     },
@@ -51,7 +51,7 @@ export const data = [
         id: 5,
         image: character5,
         characterName:"Jenny Wilson",
-        pops: "23 friends",
+        pops: "10 friends",
         info: "Jenny Wilson lives on Planet Alpha."
 
     },
@@ -59,7 +59,7 @@ export const data = [
         id: 6,
         image: character6,
         characterName:"Marvin Mckinney",
-        pops: "23 friends",
+        pops: "79 friends",
         info: "Marvin Mckinney lives on Planet Alpha."
 
     },
@@ -67,7 +67,7 @@ export const data = [
         id: 7,
         image: character7,
         characterName:"Jerome Bell",
-        pops: "23 friends",
+        pops: "86 friends",
         info: "Jerome Bell lives on Planet Alpha."
 
     },
@@ -75,7 +75,7 @@ export const data = [
         id: 8,
         image: character8,
         characterName:"Guy Hawkins",
-        pops: "23 friends",
+        pops: "178k friends",
         info: "Fashionista who has walked the world most amazing fashion run ways in the world 👗 ."
 
     },
@@ -83,7 +83,7 @@ export const data = [
         id: 9,
         image: character9,
         characterName:"Robert Fox",
-        pops: "23 friends",
+        pops: "200k friends",
         info: "He's a foodie and a chef, who love exploring different foods around different locality 🍲 ."
 
     },
@@ -91,7 +91,7 @@ export const data = [
         id: 10,
         image: character10,
         characterName:"Mandy Witt",
-        pops: "23 friends",
+        pops: "150k followers ",
         info: "We never walk alone Great Liverpool fan."
 
     },
@@ -99,7 +99,7 @@ export const data = [
         id: 11,
         image: character11,
         characterName:"Careen Taylor",
-        pops: "23 friends",
+        pops: "24 friends",
         info: "Grandma and a lover of children 🧒 "
 
     },
@@ -107,7 +107,7 @@ export const data = [
         id: 12,
         image: character12,
         characterName:"David Brown",
-        pops: "23 friends",
+        pops: "67k followers",
         info: "David Brown has a new world view of how the society should be and hopes for a better one 🗺 ."
 
     },
