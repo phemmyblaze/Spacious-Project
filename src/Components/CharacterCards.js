@@ -32,6 +32,7 @@
         const handleClose = () => setShow(false);
         const handleShow = () => setShow(true);
 
+
         const characters = [
             {
                 id: 1,
@@ -115,7 +116,7 @@
             },
             {
                 id: 12,
-                image: character5,
+                image: character3,
                 characterName:"David Brown",
                 pops: "23 friends"
 
@@ -173,11 +174,11 @@
                     <CreateNewCharacter className="position-absolute bottom-0 end-0 mt-5" handleShow={handleShow}/> 
                     <Offcanvas show={show} onHide={handleClose} {...props} placement="end" className="offcanvas-style" md="auto" lg="auto" sm="auto">
                         <Offcanvas.Header closeButton className="">
-                            <Offcanvas.Title className="bigger  ms-3">Jane Cooper</Offcanvas.Title>
+                            <Offcanvas.Title className="bigger  ms-3"></Offcanvas.Title>
                         </Offcanvas.Header>
                         
                         <Offcanvas.Body >
-                            <p className="extra">Jane is really a nice person. She’s been living on planet Alpha for the last 10 years. </p>
+                            <p className="extra"> is really a nice person. She’s been living on planet Alpha for the last 10 years. </p>
                             <Row className="mt-4">
                                 <Col>
                                     <p className="little">Planets</p>
@@ -200,8 +201,12 @@
                             
                             }
                         </Offcanvas.Body>
+
+                        
                         
                     </Offcanvas>
+
+                
                     </>
                 }   
 
